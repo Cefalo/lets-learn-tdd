@@ -2,14 +2,16 @@
 This repository is created for learning and exploring Test Driven Development in Java using JUnit
 
 ## Required Tools
-##### Java
 * JDK 1.8 or higher
-##### Build Tool
-One of the following:
-* Gradle 5.4.1 or higher  
-* Maven 3.6.0 or higher
+* Git 
+* One of the following build tools:
+    * Gradle 5.4.1 or higher  
+    * Maven 3.6.0 or higher
 
 ## Build Instruction
+First, clone this repository into your development environment by using the following command: \
+`git clone https://github.com/Cefalo/lets-learn-tdd`
+
 By default, this project can be built using **Gradle**. 
 
 Run the following command from your terminal to build this project using Gradle:
@@ -44,5 +46,7 @@ In this repository, we tried to solve the following sample problems using TDD:
    Functionality implemented at [SimpleCalculator.java](src/main/java/com/cefalo/tdd/SimpleCalculator.java)
    
 5. **Customer with reward points and redemption** \
+   This problem will be used in the workshop to learn step by step Test Driven Development. \
+   All the steps of the TDD are already present in this [directory](step-by-step-tdd). \
    Unit tests will be defined at: [CustomerTests.java](src/test/java/com/cefalo/tdd/CustomerTests.java)  \
    Functionality will be implemented at [Customer.java](src/main/java/com/cefalo/tdd/Customer.java)    
